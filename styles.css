@@ -3,11 +3,16 @@
   margin-top: 100px;
 }
 
+.top-of-site {
+  margin-top: 10px;
+}
+
 body {
   font-family: "math", math;
   font-size: 110%;
-  margin-top: 20px;
-  margin-left: 160px;
+  /*margin-top: 20px;
+  margin-left: */
+  margin: auto;
   width: 75%;
 }
 
