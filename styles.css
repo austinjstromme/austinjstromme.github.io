@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+.container {
+  margin-top: 100px;
+}
+
+body {
+  font-family: "math", math;
+  font-size: 110%;
+  margin-top: 20px;
+  margin-left: 160px;
+  width: 75%;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "math", math;
+  margin-block-start: 0px;
+  margin-block-end: 10px;
+}
+
+a, a:visited {
+  color: #01b7d9;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover, a:visited:hover {
+  color: #2E5475;
+  text-decoration: none;
+}
+a:clicked, a:visited:clicked {
+  color: #2E5475;
+}
+
+em {
+  font-weight: 600;
+}
+
+.paper-title {
+  width: 95%;
+  margin: auto 2.5%;
+  font-size: 100%;
+}
+
+.paper-title a {
+} 
+
+.authors-and-venue {
+  width: 95%;
+  margin: auto 5%;
+  font-size: 90%;
+}
+
+.pagenav {
+	align: right;
+}
+
+.pagenav-link {
+  color: black;
+  display: inline;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 110%;
+}
+.pagenav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.pagenav-link:hover {
+  text-decoration: none;
+  color: black;
+}
+.pagenav-link:hover {
+  text-decoration: none;
+  color: #68a1d3;
+}
+
+.image-with-text {
+	text-align: center;
+}
+
+.image-with-text img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.email-address {
+	color: #000;
+	font-family: 'Courier New', monospace;
+	font-size: 90%;
+}
+/*# sourceMappingURL=styles.css.map */
+
