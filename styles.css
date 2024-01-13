@@ -52,6 +52,17 @@ em {
 .paper-title a {
 } 
 
+.next-talk {
+  width: 95%;
+  margin: auto 2.5%;
+  font-size: 100%;
+}
+
+.speaker-and-time {
+  margin: auto 5%;
+  font-size: 95%;
+}
+
 .authors-and-venue {
   width: 95%;
   margin: auto 5%;
