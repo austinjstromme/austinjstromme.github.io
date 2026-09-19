@@ -1,0 +1,18 @@
+title: Austin J. Stromme
+description: Research, papers, and essays by Austin J. Stromme.
+url: "https://austinjstromme.github.io"
+baseurl: ""
+timezone: Europe/Stockholm
+markdown: kramdown
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: essay
+
+exclude:
+  - node_modules
+  - old

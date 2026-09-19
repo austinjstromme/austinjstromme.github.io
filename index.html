@@ -1,274 +1,94 @@
-<!DOCTYPE html>
-    <head>
-        
-<meta name="viewport" content= "width=device-width, initial-scale=1.0">
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="styles.css">
-<title>Austin J. Stromme</title>
-<link rel="icon" href="assets/icon.ico" />
+---
+layout: default
+title: Home
+description: "Austin J. Stromme — research in statistics, optimization, geometry, probability, and optimal transport."
+---
 
-    </head>
-    <body>
-	<div class="top-of-site">
-        <div class="row">
-            <div class="col-md-7 col-xs-12 my-md-1 my-2" id="about">
-        <h1 id="about">Austin J. Stromme</h1>
-	    </div>
-            <div class="pagenav col-md-4 col-xs-12 my-md-3 mx-md-1">
-		<p>
+<section class="intro" id="about">
+  <div class="portrait-block">
+    <img class="portrait" src="{{ '/web_temp.jpg' | relative_url }}" alt="Portrait of Austin J. Stromme" width="200">
+   <a class="email-address" href="mailto:austin.stromme@ensae.fr">austin.stromme@ensae.fr</a>
+  </div>
 
-		<a class="pagenav-link" href="https://scholar.google.com/citations?user=yimVJx8AAAAJ&hl=en">Google Scholar</a>
-		|
-		<a class="pagenav-link" href="cv_avril_2026.pdf">CV</a>
-		<!-- |
-		<a class="pagenav-link" href="#">CV</a> -->
-		
-                </p>
-            </div>
-        </div>
-	</div>
-        <div class="row">
-            <div class="col-md-5 col-xs-12 my-md-1 my-2" id="about">
-		    <div class="image-with-text">
-                <img src="web_temp.jpg" width="200px"/>
-		<div class="email-address">
-		<p> austin.stromme@ensae.fr	</p>
-		</div>
-		  </div>
-	    </div>
-            <div class="col-md-6 col-xs-10 my-md-3 my-2">
-		    <p>
-I am an assistant professor in the Statistics Department at <a href="https://www.ensae.fr/">ENSAE</a>/<a href="https://crest.science/">CREST</a>. I work at the high-dimensional intersection of optimization, geometry, and probability, and am particularly interested in statistical questions in optimal transport. Previously, I received my PhD from MIT EECS.<!--
-<a href="CV.pdf">[CV]</a>
-<a href="https://scholar.google.com/citations?user=yimVJx8AAAAJ&hl=en">[Google Scholar]</a>
--->
-                </p>
-
-            </div>
-        </div>
-
+  <div class="intro-copy">
+    <h1>Austin J. Stromme</h1>
+    <p>
+      I am an assistant professor in the Statistics Department at
+      <a href="https://www.ensae.fr/">ENSAE</a>/<a href="https://crest.science/">CREST</a>.
+      I work at the high-dimensional intersection of optimization, geometry, and probability,
+      and am particularly interested in the effects of symmetries and over-parameterization
+      on learning dynamics and generalization. Previously,
+      I received my PhD from MIT EECS.
+    </p>
+  </div>
+</section>
 
 <!--
-	<h3 id="postdocs">Hiring a postdoc</h3>
-	<p> I have funding available for a one year postdoc in the Paris area, with the option to renew for a second year. I am searching for candidates with a strong background in mathematical statistics, optimization, Riemannian geometry (especially geometry of manifolds with group symmetries), or functional inequalities. The research directions are dependent on the interest and experience of the candidate but would involve applying the above to problems in statistical optimal transport, the theory of deep learning, Euclidean/manifold optimization, and sampling. The position pays approximately 2500€/month, and there is no required teaching. There is also 5000€/year for travel expenses. Please email me at austin.stromme@ensae.fr if you are interested.</p>
--->
+<section id="seminar">
+  <h2>Online seminar on statistics and geometry</h2>
+  <p>
+    I am currently co-organizing an online seminar on statistics and geometry; please see the
+    <a href="https://qparis-math.github.io/seminar/">seminar homepage</a>. The aim is to promote
+    communication between the two fields, and we encourage speakers to give synthetic and
+    pedagogical talks of about one hour, aimed at a broad mathematical audience.
+  </p>
+</section> -->
 
-	<h3 id="seminar">Online seminar on statistics and geometry</h3>
-		<p>
-		I am currently co-organizing an
-online seminar on statistics and geometry, please see the seminar homepage <a href="https://qparis-math.github.io/seminar/">here</a>.
-The aim is to promote communication between the two fields, and we encourage speakers to give synthetic and pedagogical talks of about one hour, aimed at a broad mathematical audience.
+<section id="papers">
+  <div class="section-heading">
+    <h2>Recent and selected papers</h2>
+    <a class="section-link" href="{{ '/papers/' | relative_url }}">All papers &rarr;</a>
+  </div>
 
-        <h3 id="papers">Papers</h3>
-        <div class="row">
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2602.12257">On the implicit regularization of Langevin dynamics with projected noise</a>
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Govind Menon, Austin J. Stromme, Adrien Vacher <br>
-			Conference on Learning Theory (COLT) 2026  <i> to appear </i>
-		    </p>
-            </div>
-        </div>
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2411.11415">The ballistic limit of the log-Sobolev constant equals the Polyak-Łojasiewicz constant</a>
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Sinho Chewi, Austin J. Stromme <br>
-			Annales de l'Institut Henri Poincaré (B) Probabilités et Statistiques, 2026+ 
-		    </p>
-            </div>
-        </div>
+  <article class="publication">
+    <h3><a href="https://arxiv.org/abs/2602.12257">On the implicit regularization of Langevin dynamics with projected noise</a></h3>
+    <p>Govind Menon, Austin J. Stromme, Adrien Vacher<br>
+      Conference on Learning Theory (COLT) 2026</p>
+  </article>
 
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2410.09697">Provable Convergence and Limitations of Geometric Tempering
-for Langevin Dynamics</a>
+  <article class="publication">
+    <h3><a href="https://arxiv.org/abs/2411.11415">The ballistic limit of the log-Sobolev constant equals the Polyak-Łojasiewicz constant</a></h3>
+    <p>Sinho Chewi, Austin J. Stromme<br>
+      Annales de l'Institut Henri Poincaré (B) Probabilités et Statistiques, 2026+</p>
+  </article>
 
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Omar Chehab, Anna Korba, Austin J. Stromme, Adrien Vacher <br>
-			International Conference on Learning Representations (ICLR) 2025 	
-		    </p>
-            </div>
-        </div>
+  <article class="publication">
+    <h3><a href="https://arxiv.org/abs/2306.03398">Minimum intrinsic dimension scaling for entropic optimal transport</a></h3>
+    <p>Austin J. Stromme<br>
+      Extended abstract in International Conference on Soft Methods in Probability and Statistics 2024,
+      <strong>Best paper award</strong></p>
+  </article>
 
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2206.13472">On the sample complexity of entropic optimal transport</a>
+  <article class="publication">
+    <h3><a href="https://arxiv.org/abs/2206.13472">On the sample complexity of entropic optimal transport</a></h3>
+    <p>Philippe Rigollet, Austin J. Stromme<br>
+      Annals of Statistics 2025</p>
+  </article>
 
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Philippe Rigollet, Austin J. Stromme <br>
-                        Annals of Statistics 2025
-		    </p>
-            </div>
-        </div>
+  <article class="publication">
+    <h3><a href="https://arxiv.org/abs/1908.00828">Fast convergence of empirical barycenters in Alexandrov spaces and the Wasserstein space</a></h3>
+    <p>Thibaut Le Gouic, Quentin Paris, Philippe Rigollet, Austin J. Stromme<br>
+      Journal of the European Math Society (JEMS) 2022</p>
+  </article>
+</section>
 
+<section id="writings">
+  <div class="section-heading">
+    <h2>Writings</h2>
+    <a class="section-link" href="{{ '/blog/' | relative_url }}">All writings &rarr;</a>
+  </div>
 
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2306.03398">Minimum intrinsic dimension scaling for entropic optimal transport</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Austin J. Stromme <br>
-			Extended abstract in International Conference on Soft Methods in Probability and Statistics 2024, <b>Best paper award</b>
-		    </p>
-            </div>
-        </div>
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://proceedings.mlr.press/v206/stromme23a.html">Sampling from a Schrödinger bridge</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Austin J. Stromme <br>
-			Conference on Artifical Intelligence and Statistics (AISTATS) 2023
-		    </p>
-            </div>
-        </div>
-
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/1908.00828">Fast convergence of empirical barycenters in Alexandrov spaces and the Wasserstein space</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>Thibaut Le Gouic, Quentin Paris, Philippe Rigollet, Austin J. Stromme <br>
-Journal of the European Math Society (JEMS) 2022
-		    </p>
-            </div>
-        </div>
-
-
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2106.11862">Asymptotics for semi-discrete entropic optimal transport</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p> 
-			Jason M. Altschuler, Jon Niles-Weed, Austin J. Stromme <br>
-                        SIAM Journal on Mathematical Analysis (SIMA) 2022
-		    </p>
-            </div>
-        </div>
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2106.08502">Averaging on the Bures-Wasserstein manifold: dimension-free convergence of gradient descent</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>  Jason M. Altschuler, Sinho Chewi, Patrik Gerber, Austin J. Stromme <br>
-			Neural Information Processing Systems (NeurIPS) 2021 <b> Spotlight presentation </b>
-		    </p>
-            </div>
-        </div>
-
-
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2010.12101">Fast and Smooth Interpolation on Wasserstein Space</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, Austin J. Stromme <br>
-                        Artificial Intelligence and Statistics (AISTATS) 2021		    </p>
-            </div>
-        </div>
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2005.09669">Exponential ergodicity of mirror-Langevin diffusions</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p> Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, Austin J. Stromme <br>
-                        Neural Information Processing Systems (NeurIPS) 2020 
-		    </p>
-            </div>
-        </div>
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/2001.01700">Gradient descent algorithms for Bures-Wasserstein barycenters</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>  Sinho Chewi, Tyler Maunu, Philippe Rigollet, Austin J. Stromme <br>
-                        Conference on Learning Theory (COLT) 2020
-		    </p>
-            </div>
-        </div>
-
-
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://arxiv.org/abs/1604.07075">Algebraic Properties of Generalized Graph Laplacians</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>
-David Jekel, Avi Levy, Will Dana, Austin Stromme, Collin Litterell <br>
-                        SIAM Journal of Discrete Math (SIDMA) 2018
-			</p>
-            </div>
-        </div>
-
-
-
-
-            <div class="col-12">
-                <div class="paper-title">
-                <a href="https://scholar.rose-hulman.edu/cgi/viewcontent.cgi?article=1337&context=rhumj">
-                                Frog Model Wakeup Time on the Complete Graph</a>
-
-                </div>
-	    <div class="authors-and-venue">
-			<p>Nikki Carter, Brittany Dygert, Stephen Lacina, Collin Litterell, Austin Stromme, Andrew You <br>
-                        Rose-Hulman Undergraduate Math Journal 2016
-		    </p>
-            </div>
-        </div>
-
-
-        </div>
-
-
-    </body>
-    
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
-
-</html>
-
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts limit:3 %}
+        <article class="post-preview">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty-note">Writings and informal research notes will appear here.</p>
+  {% endif %}
+</section>
