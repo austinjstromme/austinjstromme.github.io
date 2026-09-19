@@ -9,9 +9,6 @@
   </head>
   <body>
     <header class="site-header{% if page.title == 'Home' %} home-header{% endif %}">
-      {% unless page.title == 'Home' %}
-        <a class="site-name" href="{{ '/' | relative_url }}">Austin J. Stromme</a>
-      {% endunless %}
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/papers/' | relative_url }}">Papers</a>
@@ -19,6 +16,9 @@
         <a href="https://scholar.google.com/citations?user=yimVJx8AAAAJ&amp;hl=en">Google Scholar</a>
         <a href="{{ '/cv_avril_2026.pdf' | relative_url }}">CV</a>
       </nav>
+      {% unless page.title == 'Home' %}
+        <a class="site-name" href="{{ '/' | relative_url }}">Austin J. Stromme</a>
+      {% endunless %}
     </header>
 
     <main class="page-content">
