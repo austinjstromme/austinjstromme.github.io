@@ -1,6 +1,6 @@
 ---
 title: "On the industrialization of mathematics"
-date: 2026-09-20
+date: 2026-09-19
 description: "Mostly obvious thoughts on the industrial age of mathematics, largely written
 prior to the Navier-Stokes announcement."
 ---
