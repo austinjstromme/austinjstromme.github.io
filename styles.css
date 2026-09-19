@@ -297,3 +297,19 @@ section + section {
     margin-left: 0.75rem;
   }
 }
+
+.essay-figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.essay-figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+.essay-figure figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}

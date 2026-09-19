@@ -15,10 +15,17 @@ What will the world look like when FLT-level proofs are available in hours (or l
 It's worth thinking about this in concrete terms: *what it took Andrew Wiles, one of the greatest living mathematicians, to do in 8 years, will soon be done in hours for very little money and no human effort.*
 
 Let's start with the obvious consequences.
+<figure class="essay-figure">
+  <img
+    src="/assets/essays/industrialization-of-mathematics/arxiv_math_daily_average.png"
+    alt="Average daily arXiv mathematics submissions"
+    width="707"
+  >
+  <figcaption>
+    Figure 1. Average daily arXiv mathematics submissions
+  </figcaption>
+</figure>
 
-<img src="/assets/essays/industrialization-of-mathematics/arxiv_math_daily_average.png" alt="Average daily arXiv mathematics submissions" width="707">
-
-<br>
 
 **There will be an exponentially increasing number of papers.** Even if we assume a fixed amount of financial resources are devoted to mathematical research (across both humans and AI) per year, then geometric improvements in intelligence per dollar[^1] will imply that there will be exponentially more mathematics produced. This is already borne out by the growth in arXiv submissions pictured above.
 
